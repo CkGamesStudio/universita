@@ -163,25 +163,25 @@
   },
   {
     "lesson": "Lezione 011",
-    "question": "01. Quale delle seguenti è una sottomatrice 2x2 della matrice 3x4:\n 1 -1 -3  1\n-5  3 -1  0\n 4  6 -3  2?",
+    "question": "01. Quale delle seguenti è una sottomatrice 2x2 della matrice 3x4: [1 -1 -3 1; -5 3 -1 0; 4 6 -3 2]?",
     "options": ["[1 1; 4 2]", "[-6 1; 4 -1]", "[1 1; 2 -3]", "[4 5; 4 2]"],
     "answer": 0
   },
   {
     "lesson": "Lezione 011",
-    "question": "02. Quale delle seguenti è una sottomatrice 2x2 della matrice 3x4:\n 2 -1 -3  1\n-2  1  0 -5\n 4  6  5 -2?",
+    "question": "02. Quale delle seguenti è una sottomatrice 2x2 della matrice 3x4: [2 -1 -3 1; -2 1 0 -5; 4 6 5 -2]?",
     "options": ["[1 1; 4 -1]", "[1 1; -6 1]", "[4 2; 1 1]", "[2 -3; 4 5]"],
     "answer": 3
   },
   {
     "lesson": "Lezione 011",
-    "question": "03. Quale delle seguenti è una sottomatrice 2x2 della matrice 3x4:\n 1  1  3  1\n-6  4  2  3\n 4 -6  2 -1?",
+    "question": "03. Quale delle seguenti è una sottomatrice 2x2 della matrice 3x4: [1 1 3 1; -6 4 2 3; 4 -6 2 -1]?",
     "options": ["[4 -1; 4 2]", "[-6 1; 1 1]", "[1 1; 4 -1]", "[2 -3; 4 5]"],
     "answer": 2
   },
   {
     "lesson": "Lezione 011",
-    "question": "04. Quale delle seguenti è una sottomatrice 2x2 della matrice 3x4:\n 2  1  3  1\n-2  0  1  5\n 4 -6  3  1?",
+    "question": "04. Quale delle seguenti è una sottomatrice 2x2 della matrice 3x4: [2 1 3 1; -2 0 1 5; 4 -6 3 1]?",
     "options": ["[4 5; 2 -3]", "[1 1; 4 2]", "[1 1; -6 1]", "[1 1; 4 -1]"],
     "answer": 2
   },
@@ -259,7 +259,7 @@
   },
   {
     "lesson": "Lezione 015",
-    "question": "01. Quanto vale l'area del parallelogramma che ha i due vettori t(3 -1) e t(-3 2) come una coppia di lati adiacenti nel piano?",
+    "question": "01. Quanto vale l'area del parallelogramma che ha i due vettori t(3 -1) e t(-3 2) come coppia di lati adiacenti nel piano?",
     "options": ["-3", "3", "-7", "7"],
     "answer": 1
   },
@@ -271,7 +271,7 @@
   },
   {
     "lesson": "Lezione 015",
-    "question": "03. Quanto vale l'area del parallelogramma che ha i due vettori t(3 -1) e t(2 -3) come una coppia di lati adiacenti nel piano?",
+    "question": "03. Quanto vale l'area del parallelogramma che ha i due vettori t(3 -1) e t(2 -3) come coppia di lati adiacenti nel piano?",
     "options": ["3", "7", "-3", "-7"],
     "answer": 1
   },
@@ -289,13 +289,13 @@
   },
   {
     "lesson": "Lezione 015",
-    "question": "06. Quanto vale l'area del parallelogramma che ha i due vettori t(3 -1) e t(-2 3) come una coppia di lati adiacenti nel piano?",
+    "question": "06. Quanto vale l'area del parallelogramma che ha i due vettori t(3 -1) e t(-2 3) come coppia di lati adiacenti nel piano?",
     "options": ["7", "3", "-7", "-3"],
     "answer": 0
   },
   {
     "lesson": "Lezione 015",
-    "question": "07. Quanto vale l'area del parallelogramma che ha i due vettori t(3 -1) e t(3 -2) come una coppia di lati adiacenti nel piano?",
+    "question": "07. Quanto vale l'area del parallelogramma che ha i due vettori t(3 -1) e t(3 -2) come coppia di lati adiacenti nel piano?",
     "options": ["-3", "-7", "7", "3"],
     "answer": 3
   },
@@ -518,48 +518,48 @@
   {
     "lesson": "Lezione 040",
     "question": "01. Data l'applicazione affine θ: R²∋(x y) → (x-2y+2, 2x+y-1) ∈ R² e indicata sempre con θ la sua estensione proiettiva, quale delle seguenti è [θ]_P?",
-    "options": ["[2 -4 4; 4 2 -2; 0 0 1]", ["[2 -4 4; 4 2 2; 0 0 2]", "[1 -2 2; 2 1 -1; 0 0 1]", "[2 -4 4; 4 2 -2; 0 0 2]"],
+    "options": ["[2 -4 4; 4 2 -2; 0 0 1]", "[2 -4 4; 4 2 2; 0 0 2]", "[1 -2 2; 2 1 -1; 0 0 1]", "[2 -4 4; 4 2 -2; 0 0 2]"],
     "answer": 3
   },
   {
     "lesson": "Lezione 040",
     "question": "02. Data l'applicazione affine θ: R²∋(x y) → (x-2y+2, 2x+y+1) ∈ R² e indicata sempre con θ la sua estensione proiettiva, quale delle seguenti è [θ]_P?",
-    "options": ["[2 -4 4; 4 2 2; 0 0 1]", ["[2 -4 4; 4 2 -2; 0 0 2]", ["[2 -4 4; 4 2 2; 0 0 2]", "[1 -2 2; 2 1 1; 0 0 2]"],
+    "options": ["[2 -4 4; 4 2 2; 0 0 1]", ["[2 -4 4; 4 2 -2; 0 0 2]", "[2 -4 4; 4 2 2; 0 0 2]", "[1 -2 2; 2 1 1; 0 0 2]"],
     "answer": 2
   },
   {
     "lesson": "Lezione 040",
     "question": "03. Data l'applicazione affine θ: R²∋(x y) → (x-2y+2, 2x-y-1) ∈ R² e indicata sempre con θ la sua estensione proiettiva, quale delle seguenti è [θ]_P?",
-    "options": ["[1 -2 2; 2 -1 -1; 0 0 1]", ["[2 -4 4; 4 -2 -2; 0 0 2]", ["[2 -4 4; 4 -2 -2; 0 0 1]", ["[2 -4 4; 4 -2 2; 0 0 2]"],
+    "options": ["[1 -2 2; 2 -1 -1; 0 0 1]", "[2 -4 4; 4 -2 -2; 0 0 2]", "[2 -4 4; 4 -2 -2; 0 0 1]", "[2 -4 4; 4 -2 2; 0 0 2]"],
     "answer": 1
   },
   {
     "lesson": "Lezione 040",
     "question": "04. Data l'applicazione affine θ: R²∋(x y) → (x-2y+2, 2x-y+1) ∈ R² e indicata sempre con θ la sua estensione proiettiva, quale delle seguenti è [θ]_P?",
-    "options": ["[2 -4 4; 4 -2 2; 0 0 1]", ["[2 -4 4; 4 -2 2; 0 0 2]", ["[1 -2 2; 2 -1 1; 0 0 2]", ["[2 -4 4; 4 -2 -2; 0 0 2]"],
+    "options": ["[2 -4 4; 4 -2 2; 0 0 1]", ["[2 -4 4; 4 -2 2; 0 0 2]", "[1 -2 2; 2 -1 1; 0 0 2]", "[2 -4 4; 4 -2 -2; 0 0 2]"],
     "answer": 1
   },
   {
     "lesson": "Lezione 041",
-    "question": "01. Quale delle seguenti è una forma implicita omogenea della retta tangente alla curva algebrica con equazione omogenea X⁴ - 3Y²T² + 2T⁴ = 0 nel punto [1 -1 1] nel piano?",
+    "question": "01. Quale delle seguenti è una forma implicita omogenea della retta tangente alla curva algebrica X⁴ - 3Y²T² + 2T⁴ = 0 nel punto [1 -1 1] nel piano?",
     "options": ["2X + 3Y - T = 0", "2X + 3Y + T = 0", "2X - 3Y + T = 0", "2X - 3Y - T = 0"],
     "answer": 1
   },
   {
     "lesson": "Lezione 041",
-    "question": "02. Quale delle seguenti è una forma implicita omogenea della retta tangente alla curva algebrica con equazione omogenea X⁴ - 3Y²T² + 2T⁴ = 0 nel punto [1 1 1] nel piano?",
+    "question": "02. Quale delle seguenti è una forma implicita omogenea della retta tangente alla curva algebrica X⁴ - 3Y²T² + 2T⁴ = 0 nel punto [1 1 1] nel piano?",
     "options": ["2X - 3Y + T = 0", "2X + 3Y + T = 0", "2X - 3Y - T = 0", "2X + 3Y - T = 0"],
     "answer": 0
   },
   {
     "lesson": "Lezione 041",
-    "question": "03. Quale delle seguenti è una forma implicita omogenea della retta tangente alla curva algebrica con equazione omogenea X⁴ - 3Y²T² + 2T⁴ = 0 nel punto [1 1 -1] nel piano?",
+    "question": "03. Quale delle seguenti è una forma implicita omogenea della retta tangente alla curva algebrica X⁴ - 3Y²T² + 2T⁴ = 0 nel punto [1 1 -1] nel piano?",
     "options": ["2X + 3Y - T = 0", "2X + 3Y + T = 0", "2X - 3Y + T = 0", "2X - 3Y - T = 0"],
     "answer": 3
   },
   {
     "lesson": "Lezione 041",
-    "question": "04. Quale delle seguenti è una forma implicita omogenea della retta tangente alla curva algebrica con equazione omogenea X⁴ - 3Y²T² + 2T⁴ = 0 nel punto [-1 1 1] nel piano?",
+    "question": "04. Quale delle seguenti è una forma implicita omogenea della retta tangente alla curva algebrica X⁴ - 3Y²T² + 2T⁴ = 0 nel punto [-1 1 1] nel piano?",
     "options": ["2X + 3Y + T = 0", "2X + 3Y - T = 0", "2X - 3Y + T = 0", "2X - 3Y - T = 0"],
     "answer": 1
   },
