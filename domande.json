@@ -1,187 +1,187 @@
 [
   {
     "lesson": "Lezione 007",
-    "question": "01. Quale dei seguenti vettori colonna appartiene al sottospazio vettoriale Span( t(2 1 3), t(1 -1 -2) ) di R³?",
+    "question": "01. Quale dei seguenti vettori colonna appartiene al sottospazio vettoriale Span( t(2 1 3), t(1 -1 -2) ) di R3?",
     "options": ["t(4 -3 7)", "t(4 -3 -1)", "t(4 -1 -1)", "t(4 -1 7)"],
     "answer": 2
   },
   {
     "lesson": "Lezione 007",
-    "question": "02. Quale dei seguenti vettori colonna appartiene al sottospazio vettoriale Span( t(2 1 3), t(1 -1 2) ) di R³?",
+    "question": "02. Quale dei seguenti vettori colonna appartiene al sottospazio vettoriale Span( t(2 1 3), t(1 -1 2) ) di R3?",
     "options": ["t(4 -3 7)", "t(4 -1 7)", "t(4 -3 -1)", "t(4 -1 -1)"],
     "answer": 1
   },
   {
     "lesson": "Lezione 007",
-    "question": "03. Quale dei seguenti vettori colonna appartiene al sottospazio vettoriale Span( t(2 -1 3), t(1 -1 -2) ) di R³?",
+    "question": "03. Quale dei seguenti vettori colonna appartiene al sottospazio vettoriale Span( t(2 -1 3), t(1 -1 -2) ) di R3?",
     "options": ["t(4 -3 -1)", "t(4 -1 -1)", "t(4 -3 7)", "t(4 -1 7)"],
     "answer": 0
   },
   {
     "lesson": "Lezione 007",
-    "question": "04. Quale dei seguenti vettori colonna appartiene al sottospazio vettoriale Span( t(2 -1 3), t(1 -1 2) ) di R³?",
+    "question": "04. Quale dei seguenti vettori colonna appartiene al sottospazio vettoriale Span( t(2 -1 3), t(1 -1 2) ) di R3?",
     "options": ["t(4 -3 7)", "t(4 -1 7)", "t(4 -1 -1)", "t(4 -3 -1)"],
     "answer": 0
   },
   {
     "lesson": "Lezione 008",
-    "question": "01. Quale delle seguenti coppie di vettori in R³ è formata da vettori linearmente dipendenti?",
+    "question": "01. Quale delle seguenti coppie di vettori in R3 e' formata da vettori linearmente dipendenti?",
     "options": ["t(-2 -3 -1), t(4 -6 -2)", "t(-2 -1 -3), t(4 -2 -6)", "t(2 -1 -3), t(4 -2 -6)", "t(2 -3 -1), t(4 -6 2)"],
     "answer": 2
   },
   {
     "lesson": "Lezione 008",
-    "question": "02. Quale delle seguenti coppie di vettori in C² è formata da vettori linearmente indipendenti?",
+    "question": "02. Quale delle seguenti coppie di vettori in C2 e' formata da vettori linearmente indipendenti?",
     "options": ["t(2+i 1), t(5 2+i)", "t(2 1), t(4 2)", "t(2+i 1), t(5 2-i)", "t(2-i 1), t(5 2+i)"],
     "answer": 0
   },
   {
     "lesson": "Lezione 008",
-    "question": "03. Quale delle seguenti coppie di vettori in R³ è formata da vettori linearmente indipendenti?",
+    "question": "03. Quale delle seguenti coppie di vettori in R3 e' formata da vettori linearmente indipendenti?",
     "options": ["t(2 3 -1), t(4 6 -2)", "t(2 3 -1), t(2 3 -1)", "t(2 -1 3), t(4 -2 6)", "t(2 -1 3), t(4 -2 5)"],
     "answer": 3
   },
   {
     "lesson": "Lezione 008",
-    "question": "04. Quale delle seguenti coppie di vettori in R³ è formata da vettori linearmente indipendenti?",
+    "question": "04. Quale delle seguenti coppie di vettori in R3 e' formata da vettori linearmente indipendenti?",
     "options": ["t(2 3 -1), t(4 5 -2)", "t(2 -1 3), t(4 -2 6)", "t(2 -1 3), t(2 -1 3)", "t(2 3 -1), t(4 6 -2)"],
     "answer": 0
   },
   {
     "lesson": "Lezione 008",
-    "question": "05. Quale delle seguenti coppie di vettori in R³ è formata da vettori linearmente dipendenti?",
+    "question": "05. Quale delle seguenti coppie di vettori in R3 e' formata da vettori linearmente dipendenti?",
     "options": ["t(-2 -1 -3), t(4 -2 -6)", "t(2 -1 -3), t(4 -2 6)", "t(2 -3 -1), t(4 -6 -2)", "t(-2 -3 -1), t(4 -6 -2)"],
     "answer": 2
   },
   {
     "lesson": "Lezione 008",
-    "question": "06. Quale delle seguenti coppie di vettori in C² è formata da vettori linearmente dipendenti?",
+    "question": "06. Quale delle seguenti coppie di vettori in C2 e' formata da vettori linearmente dipendenti?",
     "options": ["t(1-2i 1), t(5 1+2i)", "t(2 1), t(-4 2)", "t(1-2i 1), t(-5 1+2i)", "t(1-2i 1), t(5 1-2i)"],
     "answer": 0
   },
   {
     "lesson": "Lezione 008",
-    "question": "07. Quale delle seguenti coppie di vettori in C² è formata da vettori linearmente dipendenti?",
+    "question": "07. Quale delle seguenti coppie di vettori in C2 e' formata da vettori linearmente dipendenti?",
     "options": ["t(1+2i 1), t(5 1-2i)", "t(1+2i 1), t(5 1+2i)", "t(2 1), t(4 -2)", "t(1+2i 1), t(-5 1-2i)"],
     "answer": 0
   },
   {
     "lesson": "Lezione 008",
-    "question": "08. Quale delle seguenti coppie di vettori in C² è formata da vettori linearmente indipendenti?",
+    "question": "08. Quale delle seguenti coppie di vettori in C2 e' formata da vettori linearmente indipendenti?",
     "options": ["t(2+i 1), t(-5 -2+i)", "t(2-i 1), t(-5 -2-i)", "t(2-i 1), t(5 2-i)", "t(2 1), t(4 2)"],
     "answer": 2
   },
   {
     "lesson": "Lezione 009",
-    "question": "01. Quale dei seguenti insiemi ordinati non è una base di R³?",
+    "question": "01. Quale dei seguenti insiemi ordinati non e' una base di R3?",
     "options": ["{ t(1 1 0), t(2 1 2), t(-1 0 1) }", "{ t(0 1 1), t(2 1 2), t(1 1 1) }", "{ t(0 1 1), t(0 0 2), t(-1 0 1) }", "{ t(1 1 0), t(0 0 2), t(1 1 1) }"],
     "answer": 3
   },
   {
     "lesson": "Lezione 009",
-    "question": "02. Quale dei seguenti insiemi ordinati non è una base di R³?",
+    "question": "02. Quale dei seguenti insiemi ordinati non e' una base di R3?",
     "options": ["{ t(0 1 1), t(0 0 2), t(1 0 1) }", "{ t(0 1 1), t(2 1 1), t(-1 1 -1) }", "{ t(1 1 0), t(2 1 1), t(1 0 1) }", "{ t(1 1 0), t(0 0 2), t(-1 1 -1) }"],
     "answer": 2
   },
   {
     "lesson": "Lezione 009",
-    "question": "03. Quale dei seguenti insiemi ordinati è una base di R³?",
+    "question": "03. Quale dei seguenti insiemi ordinati e' una base di R3?",
     "options": ["{ t(0 1 1), t(2 1 1), t(1 1 1) }", "{ t(1 1 0), t(0 0 2), t(1 1 1) }", "{ t(1 1 0), t(2 1 1), t(1 1 1) }", "{ t(0 1 1), t(-1 0 2), t(-1 -1 1) }"],
     "answer": 2
   },
   {
     "lesson": "Lezione 009",
-    "question": "04. Quale dei seguenti insiemi ordinati è una base di R³?",
+    "question": "04. Quale dei seguenti insiemi ordinati e' una base di R3?",
     "options": ["{ t(0 1 1), t(-1 0 2), t(-1 -1 1) }", "{ t(0 1 1), t(2 1 1), t(1 1 1) }", "{ t(1 1 0), t(2 1 1), t(1 0 1) }", "{ t(1 1 0), t(-1 0 2), t(1 1 1) }"],
     "answer": 3
   },
   {
     "lesson": "Lezione 009",
-    "question": "05. Quale dei seguenti insiemi ordinati è una base di R³?",
+    "question": "05. Quale dei seguenti insiemi ordinati e' una base di R3?",
     "options": ["{ t(0 1 1), t(2 1 1), t(1 1 1) }", "{ t(0 1 1), t(0 0 2), t(-1 -1 1) }", "{ t(1 1 0), t(2 1 1), t(1 0 1) }", "{ t(1 1 0), t(0 0 2), t(1 1 1) }"],
     "answer": 1
   },
   {
     "lesson": "Lezione 009",
-    "question": "06. Quale dei seguenti insiemi ordinati è una base di R³?",
+    "question": "06. Quale dei seguenti insiemi ordinati e' una base di R3?",
     "options": ["{ t(1 1 0), t(2 1 1), t(1 0 1) }", "{ t(0 1 1), t(-1 0 2), t(-1 -1 1) }", "{ t(1 1 0), t(0 0 2), t(1 1 1) }", "{ t(0 1 1), t(2 1 1), t(1 0 1) }"],
     "answer": 3
   },
   {
     "lesson": "Lezione 009",
-    "question": "07. Quali sono le coordinate del vettore t(1 2 0) di R³ nella base { t(1 0 -2), t(1 -3 1), t(3 -1 -1) }?",
+    "question": "07. Quali sono le coordinate del vettore t(1 2 0) di R3 nella base { t(1 0 -2), t(1 -3 1), t(3 -1 -1) }?",
     "options": ["1, -1, -1", "-1, 1, -1", "-1, -1, 1", "1, 1, 1"],
     "answer": 2
   },
   {
     "lesson": "Lezione 009",
-    "question": "08. Quali sono le coordinate del vettore t(1 0 -2) di R³ nella base { t(1 -3 1), t(3 -1 -1), t(1 2 0) }?",
+    "question": "08. Quali sono le coordinate del vettore t(1 0 -2) di R3 nella base { t(1 -3 1), t(3 -1 -1), t(1 2 0) }?",
     "options": ["1, 1, -1", "1, 1, 1", "-1, 1, -1", "1, -1, 1"],
     "answer": 2
   },
   {
     "lesson": "Lezione 009",
-    "question": "09. Quali sono le coordinate del vettore t(1 -3 1) di R³ nella base { t(3 -1 -1), t(1 2 0), t(1 0 -2) }?",
+    "question": "09. Quali sono le coordinate del vettore t(1 -3 1) di R3 nella base { t(3 -1 -1), t(1 2 0), t(1 0 -2) }?",
     "options": ["1, 1, 1", "1, -1, -1", "-1, 1, -1", "-1, -1, 1"],
     "answer": 1
   },
   {
     "lesson": "Lezione 009",
-    "question": "10. Quali sono le coordinate del vettore t(3 -1 -1) di R³ nella base { t(1 2 0), t(1 0 -2), t(1 -3 1) }?",
+    "question": "10. Quali sono le coordinate del vettore t(3 -1 -1) di R3 nella base { t(1 2 0), t(1 0 -2), t(1 -3 1) }?",
     "options": ["1, 1, 1", "-1, 1, -1", "-1, -1, 1", "1, -1, -1"],
     "answer": 0
   },
   {
     "lesson": "Lezione 009",
-    "question": "11. Quale dei seguenti insiemi ordinati non è una base di R³?",
+    "question": "11. Quale dei seguenti insiemi ordinati non e' una base di R3?",
     "options": ["{ t(0 1 1), t(0 0 2), t(-1 0 1) }", "{ t(0 1 1), t(2 1 1), t(1 1 1) }", "{ t(1 1 0), t(-1 0 2), t(1 1 1) }", "{ t(1 1 0), t(2 1 2), t(-1 0 1) }"],
     "answer": 1
   },
   {
     "lesson": "Lezione 009",
-    "question": "12. Quale dei seguenti insiemi ordinati non è una base di R³?",
+    "question": "12. Quale dei seguenti insiemi ordinati non e' una base di R3?",
     "options": ["{ t(0 1 1), t(2 1 2), t(1 1 1) }", "{ t(1 1 0), t(2 1 2), t(-1 0 1) }", "{ t(0 1 1), t(-1 0 2), t(-1 -1 1) }", "{ t(1 1 0), t(-1 0 2), t(1 1 1) }"],
     "answer": 2
   },
   {
     "lesson": "Lezione 010",
-    "question": "01. Quale è la dimensione del sottospazio vettoriale Span( t(1 -1 2), t(2 2 -4), t(-1 1 2) ) di R³?",
+    "question": "01. Quale e' la dimensione del sottospazio vettoriale Span( t(1 -1 2), t(2 2 -4), t(-1 1 2) ) di R3?",
     "options": ["2", "3", "1", "0"],
     "answer": 1
   },
   {
     "lesson": "Lezione 010",
-    "question": "02. Quale è la dimensione del sottospazio vettoriale Span( t(1 -1 2), t(-2 2 -4), t(-1 1 2) ) di R³?",
+    "question": "02. Quale e' la dimensione del sottospazio vettoriale Span( t(1 -1 2), t(-2 2 -4), t(-1 1 2) ) di R3?",
     "options": ["3", "2", "1", "0"],
     "answer": 1
   },
   {
     "lesson": "Lezione 010",
-    "question": "03. Quale è la dimensione del sottospazio vettoriale Span( t(1 -1 2), t(-2 2 -4), t(-1 1 -2) ) di R³?",
+    "question": "03. Quale e' la dimensione del sottospazio vettoriale Span( t(1 -1 2), t(-2 2 -4), t(-1 1 -2) ) di R3?",
     "options": ["3", "1", "0", "2"],
     "answer": 3
   },
   {
     "lesson": "Lezione 011",
-    "question": "01. Quale delle seguenti è una sottomatrice 2x2 della matrice 3x4: [1 -1 -3 1; -5 3 -1 0; 4 6 -3 2]?",
+    "question": "01. Quale delle seguenti e' una sottomatrice 2x2 della matrice 3x4: [1 -1 -3 1; -5 3 -1 0; 4 6 -3 2]?",
     "options": ["[1 1; 4 2]", "[-6 1; 4 -1]", "[1 1; 2 -3]", "[4 5; 4 2]"],
     "answer": 0
   },
   {
     "lesson": "Lezione 011",
-    "question": "02. Quale delle seguenti è una sottomatrice 2x2 della matrice 3x4: [2 -1 -3 1; -2 1 0 -5; 4 6 5 -2]?",
+    "question": "02. Quale delle seguenti e' una sottomatrice 2x2 della matrice 3x4: [2 -1 -3 1; -2 1 0 -5; 4 6 5 -2]?",
     "options": ["[1 1; 4 -1]", "[1 1; -6 1]", "[4 2; 1 1]", "[2 -3; 4 5]"],
     "answer": 3
   },
   {
     "lesson": "Lezione 011",
-    "question": "03. Quale delle seguenti è una sottomatrice 2x2 della matrice 3x4: [1 1 3 1; -6 4 2 3; 4 -6 2 -1]?",
+    "question": "03. Quale delle seguenti e' una sottomatrice 2x2 della matrice 3x4: [1 1 3 1; -6 4 2 3; 4 -6 2 -1]?",
     "options": ["[4 -1; 4 2]", "[-6 1; 1 1]", "[1 1; 4 -1]", "[2 -3; 4 5]"],
     "answer": 2
   },
   {
     "lesson": "Lezione 011",
-    "question": "04. Quale delle seguenti è una sottomatrice 2x2 della matrice 3x4: [2 1 3 1; -2 0 1 5; 4 -6 3 1]?",
+    "question": "04. Quale delle seguenti e' una sottomatrice 2x2 della matrice 3x4: [2 1 3 1; -2 0 1 5; 4 -6 3 1]?",
     "options": ["[4 5; 2 -3]", "[1 1; 4 2]", "[1 1; -6 1]", "[1 1; 4 -1]"],
     "answer": 2
   },
@@ -193,19 +193,19 @@
   },
   {
     "lesson": "Lezione 013",
-    "question": "02. Quale è la dimensione del prodotto righe per colonne AB di una matrice 3x3 A e una matrice 3x2 B?",
+    "question": "02. Quale e' la dimensione del prodotto righe per colonne AB di una matrice 3x3 A e una matrice 3x2 B?",
     "options": ["4x3", "3x3", "3x2", "4x2"],
     "answer": 2
   },
   {
     "lesson": "Lezione 013",
-    "question": "03. Quale è la dimensione del prodotto righe per colonne AB di una matrice 3x2 A e una matrice 2x3 B?",
+    "question": "03. Quale e' la dimensione del prodotto righe per colonne AB di una matrice 3x2 A e una matrice 2x3 B?",
     "options": ["3x2", "4x2", "3x3", "4x3"],
     "answer": 2
   },
   {
     "lesson": "Lezione 013",
-    "question": "04. Quale è la dimensione del prodotto righe per colonne AB di una matrice 4x2 A e una matrice 2x2 B?",
+    "question": "04. Quale e' la dimensione del prodotto righe per colonne AB di una matrice 4x2 A e una matrice 2x2 B?",
     "options": ["4x3", "4x2", "3x2", "3x3"],
     "answer": 1
   },
@@ -217,7 +217,7 @@
   },
   {
     "lesson": "Lezione 013",
-    "question": "06. Quale è la dimensione del prodotto righe per colonne AB di una matrice 4x3 A e una matrice 3x3 B?",
+    "question": "06. Quale e' la dimensione del prodotto righe per colonne AB di una matrice 4x3 A e una matrice 3x3 B?",
     "options": ["3x3", "3x2", "4x3", "4x2"],
     "answer": 2
   },
@@ -235,25 +235,25 @@
   },
   {
     "lesson": "Lezione 014",
-    "question": "01. Data la matrice 2x2 A = [1 -1; 1 0], quale delle seguenti è la matrice A⁻¹?",
+    "question": "01. Data la matrice 2x2 A = [1 -1; 1 0], quale delle seguenti e' la matrice inversa A^(-1)?",
     "options": ["[0 -1; -1 -1]", "[0 1; -1 1]", "[0 1; 1 -1]", "[0 -1; 1 1]"],
     "answer": 1
   },
   {
     "lesson": "Lezione 014",
-    "question": "02. Data la matrice 2x2 A = [1 1; 1 0], quale delle seguenti è la matrice A⁻¹?",
+    "question": "02. Data la matrice 2x2 A = [1 1; 1 0], quale delle seguenti e' la matrice inversa A^(-1)?",
     "options": ["[0 1; -1 1]", "[0 -1; 1 1]", "[0 1; 1 -1]", "[0 -1; -1 -1]"],
     "answer": 2
   },
   {
     "lesson": "Lezione 014",
-    "question": "03. Data la matrice 2x2 A = [1 1; -1 0], quale delle seguenti è la matrice A⁻¹?",
+    "question": "03. Data la matrice 2x2 A = [1 1; -1 0], quale delle seguenti e' la matrice inversa A^(-1)?",
     "options": ["[0 1; 1 -1]", "[0 -1; -1 -1]", "[0 -1; 1 1]", "[0 1; -1 1]"],
     "answer": 2
   },
   {
     "lesson": "Lezione 014",
-    "question": "04. Data la matrice 2x2 A = [1 -1; -1 0], quale delle seguenti è la matrice A⁻¹?",
+    "question": "04. Data la matrice 2x2 A = [1 -1; -1 0], quale delle seguenti e' la matrice inversa A^(-1)?",
     "options": ["[0 1; 1 -1]", "[0 -1; 1 1]", "[0 1; -1 1]", "[0 -1; -1 -1]"],
     "answer": 3
   },
@@ -331,79 +331,79 @@
   },
   {
     "lesson": "Lezione 020",
-    "question": "01. Data un'applicazione lineare f: V→W tale che dim(V)=5 e dim(Im(f))=4, quale è la dimensione del nucleo di f?",
+    "question": "01. Data un'applicazione lineare f: V->W tale che dim(V)=5 e dim(Im(f))=4, quale e' la dimensione del nucleo di f?",
     "options": ["1", "4", "3", "2"],
     "answer": 0
   },
   {
     "lesson": "Lezione 020",
-    "question": "02. Data un'applicazione lineare f: V→W tale che dim(V)=5 e dim(Im(f))=2, quale è la dimensione del nucleo di f?",
+    "question": "02. Data un'applicazione lineare f: V->W tale che dim(V)=5 e dim(Im(f))=2, quale e' la dimensione del nucleo di f?",
     "options": ["1", "4", "3", "2"],
     "answer": 2
   },
   {
     "lesson": "Lezione 020",
-    "question": "03. Data un'applicazione lineare f: V→W tale che dim(V)=5 e dim(Im(f))=3, quale è la dimensione del nucleo di f?",
+    "question": "03. Data un'applicazione lineare f: V->W tale che dim(V)=5 e dim(Im(f))=3, quale e' la dimensione del nucleo di f?",
     "options": ["4", "1", "3", "2"],
     "answer": 3
   },
   {
     "lesson": "Lezione 020",
-    "question": "04. Data un'applicazione lineare f: V→W tale che dim(V)=5 e dim(Im(f))=1, quale è la dimensione del nucleo di f?",
+    "question": "04. Data un'applicazione lineare f: V->W tale che dim(V)=5 e dim(Im(f))=1, quale e' la dimensione del nucleo di f?",
     "options": ["2", "3", "1", "4"],
     "answer": 3
   },
   {
     "lesson": "Lezione 021",
-    "question": "01. Per quale delle seguenti matrici A l'applicazione lineare fA: R²→R² associata alla matrice A è un isomorfismo?",
+    "question": "01. Per quale delle seguenti matrici A l'applicazione lineare fA: R2->R2 associata alla matrice A e' un isomorfismo?",
     "options": ["[2 -4; -1 -2]", "[2 -4; 1 2]", "[2 4; 1 2]", "[2 -4; 1 -2]"],
     "answer": 1
   },
   {
     "lesson": "Lezione 021",
-    "question": "02. Per quale delle seguenti matrici A l'applicazione lineare fA: R²→R² associata alla matrice A non è un isomorfismo?",
+    "question": "02. Per quale delle seguenti matrici A l'applicazione lineare fA: R2->R2 associata alla matrice A non e' un isomorfismo?",
     "options": ["[2 -4; 1 2]", "[2 -4; 1 -2]", "[2 4; 1 -2]", "[-1 2; 2 4]"],
     "answer": 1
   },
   {
     "lesson": "Lezione 021",
-    "question": "03. Per quale delle seguenti matrici A l'applicazione lineare fA: R²→R² associata alla matrice A non è un isomorfismo?",
+    "question": "03. Per quale delle seguenti matrici A l'applicazione lineare fA: R2->R2 associata alla matrice A non e' un isomorfismo?",
     "options": ["[2 -4; 1 -2]", "[2 4; 1 -2]", "[2 4; 1 2]", "[2 4; -1 -2]"],
     "answer": 2
   },
   {
     "lesson": "Lezione 021",
-    "question": "04. Per quale delle seguenti matrici A l'applicazione lineare fA: R²→R² associata alla matrice A è un isomorfismo?",
+    "question": "04. Per quale delle seguenti matrici A l'applicazione lineare fA: R2->R2 associata alla matrice A e' un isomorfismo?",
     "options": ["[2 4; 1 2]", "[2 4; 1 -2]", "[2 -4; 1 -2]", "[2 -4; 1 2]"],
     "answer": 1
   },
   {
     "lesson": "Lezione 028",
-    "question": "01. Sapendo che una matrice A ∈ R³,³ ha solo un autovalore λ=2 e che m.a.(2)=2, in quale dei seguenti casi A è diagonalizzabile?",
+    "question": "01. Sapendo che una matrice A in R3,3 ha solo un autovalore lambda=2 e che m.a.(2)=2, in quale dei seguenti casi A e' diagonalizzabile?",
     "options": ["Se m.g.(2)=2", "Sempre", "Mai", "Se m.g.(2)=3"],
     "answer": 2
   },
   {
     "lesson": "Lezione 028",
-    "question": "02. Sapendo che una matrice A ∈ R²,² ha solo un autovalore λ=2 e che m.a.(2)=1, in quale dei seguenti casi A è diagonalizzabile?",
+    "question": "02. Sapendo che una matrice A in R2,2 ha solo un autovalore lambda=2 e che m.a.(2)=1, in quale dei seguenti casi A e' diagonalizzabile?",
     "options": ["Se m.g.(2)=2", "Se m.g.(2)=1", "Sempre", "Mai"],
     "answer": 3
   },
   {
     "lesson": "Lezione 028",
-    "question": "03. Sapendo che una matrice A ∈ R⁴,⁴ ha solo un autovalore λ=2 e che m.a.(2)=3, in quale dei seguenti casi A è diagonalizzabile?",
+    "question": "03. Sapendo che una matrice A in R4,4 ha solo un autovalore lambda=2 e che m.a.(2)=3, in quale dei seguenti casi A e' diagonalizzabile?",
     "options": ["Se m.g.(2)=4", "Se m.g.(2)=3", "Sempre", "Mai"],
     "answer": 3
   },
   {
     "lesson": "Lezione 028",
-    "question": "04. Sapendo che una matrice A ∈ R⁴,⁴ ha solo un autovalore λ=2 e che m.a.(2)=2, in quale dei seguenti casi A è diagonalizzabile?",
+    "question": "04. Sapendo che una matrice A in R4,4 ha solo un autovalore lambda=2 e che m.a.(2)=2, in quale dei seguenti casi A e' diagonalizzabile?",
     "options": ["Sempre", "Se m.g.(2)=2", "Mai", "Se m.g.(2)=3"],
     "answer": 2
   },
   {
     "lesson": "Lezione 028",
-    "question": "05. Quale dei seguenti è un autovettore della matrice 3x3 [3 1 -1; 1 2 0; 1 0 2] relativo all'autovalore λ=2?",
+    "question": "05. Quale dei seguenti e' un autovettore della matrice 3x3 [3 1 -1; 1 2 0; 1 0 2] relativo all'autovalore lambda=2?",
     "options": ["t(0 -2 2)", "t(0 2 2)", "t(2 2 2)", "t(2 -2 2)"],
     "answer": 0
   },
@@ -433,230 +433,230 @@
   },
   {
     "lesson": "Lezione 032",
-    "question": "01. Quale delle seguenti è la matrice associata all'applicazione affine θ: R²∋(x y) → (2x-3y+2, 3x+y-1) ∈ R²?",
+    "question": "01. Quale delle seguenti e' la matrice associata all'applicazione affine theta: (x, y) -> (2x-3y+2, 3x+y-1)?",
     "options": ["[2 -3 2; 3 1 1; 0 0 1]", "[2 -3 2; 3 1 -1; 0 0 1]", "[2 3 2; 3 1 1; 0 0 1]", "[2 -3 2; 3 1 -1; 0 0 -1]"],
     "answer": 1
   },
   {
     "lesson": "Lezione 032",
-    "question": "02. Quale delle seguenti è la matrice associata all'applicazione affine θ: R²∋(x y) → (2x-3y+2, 3x+y+1) ∈ R²?",
+    "question": "02. Quale delle seguenti e' la matrice associata all'applicazione affine theta: (x, y) -> (2x-3y+2, 3x+y+1)?",
     "options": ["[2 -3 2; 3 1 1; 0 0 1]", "[2 -3 2; 3 1 1; 2 3 2]", "[3 1 1; 0 0 1; 2 -3 2]", "[2 -3 2; 3 1 -1; 0 0 1]"],
     "answer": 0
   },
   {
     "lesson": "Lezione 032",
-    "question": "03. Quale delle seguenti è la matrice associata all'applicazione affine θ: R²∋(x y) → (2x-3y+2, 3x-y+1) ∈ R²?",
+    "question": "03. Quale delle seguenti e' la matrice associata all'applicazione affine theta: (x, y) -> (2x-3y+2, 3x-y+1)?",
     "options": ["[2 -3 2; 3 -1 1; 0 0 1]", "[2 -3 2; 3 -1 -1; 0 0 1]", "[2 3 2; 3 1 1; 0 0 1]", "[2 -3 2; 3 -1 1; 0 0 -1]"],
     "answer": 0
   },
   {
     "lesson": "Lezione 032",
-    "question": "04. Quale delle seguenti è la matrice associata all'applicazione affine θ: R²∋(x y) → (2x-3y+2, 3x-y-1) ∈ R²?",
+    "question": "04. Quale delle seguenti e' la matrice associata all'applicazione affine theta: (x, y) -> (2x-3y+2, 3x-y-1)?",
     "options": ["[2 -3 2; 3 -1 -1; 0 0 0]", "[2 -3 2; 3 -1 -1; 0 0 1]", "[2 3 2; 3 1 1; 0 0 1]", "[2 -3 2; 3 -1 1; 0 0 1]"],
     "answer": 1
   },
   {
     "lesson": "Lezione 033",
-    "question": "01. Quali dei seguenti vettori colonna di R⁴ ha norma standard 3?",
+    "question": "01. Quali dei seguenti vettori colonna di R4 ha norma standard 3?",
     "options": ["t(2 0 2 -1)", "t(3 0 -4 0)", "t(2 -2 2 -2)", "t(0 -2 0 0)"],
     "answer": 0
   },
   {
     "lesson": "Lezione 033",
-    "question": "02. Quali dei seguenti vettori colonna di R⁴ ha norma standard 2?",
+    "question": "02. Quali dei seguenti vettori colonna di R4 ha norma standard 2?",
     "options": ["t(2 -2 2 -2)", "t(3 0 -4 0)", "t(2 0 2 -1)", "t(0 -2 0 0)"],
     "answer": 3
   },
   {
     "lesson": "Lezione 033",
-    "question": "03. Quali dei seguenti vettori colonna di R⁴ ha norma standard 5?",
+    "question": "03. Quali dei seguenti vettori colonna di R4 ha norma standard 5?",
     "options": ["t(2 0 2 -1)", "t(0 -2 0 0)", "t(2 -2 2 -2)", "t(3 0 -4 0)"],
     "answer": 3
   },
   {
     "lesson": "Lezione 033",
-    "question": "04. Quali dei seguenti vettori colonna di R⁴ ha norma standard 4?",
+    "question": "04. Quali dei seguenti vettori colonna di R4 ha norma standard 4?",
     "options": ["t(0 -2 0 0)", "t(3 0 -4 0)", "t(2 -2 2 -2)", "t(2 0 2 -1)"],
     "answer": 2
   },
   {
     "lesson": "Lezione 033",
-    "question": "05. Quale delle seguenti forme implicite rappresenta un piano parallelo alla retta con forma parametrica x=3-2λ, y=2+5λ, z=5+7λ nello spazio?",
+    "question": "05. Quale delle seguenti forme implicite rappresenta un piano parallelo alla retta con forma parametrica x=3-2lambda, y=2+5lambda, z=5+7lambda nello spazio?",
     "options": ["6x+4y-10z+1=0", "6x+8y-4z-1=0", "6x+8y+4z+1=0", "6x+4y+10z+1=0"],
     "answer": 3
   },
   {
     "lesson": "Lezione 038",
-    "question": "01. Data la forma quadratica Q la cui matrice associata è [3 2; 2 2], quale delle seguenti affermazioni è vera?",
-    "options": ["Q è definita positiva.", "Q è semidefinita positiva, ma non definita positiva.", "Q è indefinita.", "Q è definita negativa."],
+    "question": "01. Data la forma quadratica Q la cui matrice associata e' [3 2; 2 2], quale delle seguenti affermazioni e' vera?",
+    "options": ["Q e' definita positiva.", "Q e' semidefinita positiva, ma non definita positiva.", "Q e' indefinita.", "Q e' definita negativa."],
     "answer": 0
   },
   {
     "lesson": "Lezione 038",
-    "question": "02. Data la forma quadratica Q la cui matrice associata è [4 2; 2 1], quale delle seguenti affermazioni è vera?",
-    "options": ["Q è indefinita.", "Q è semidefinita negativa, ma non definita negativa.", "Q è definita positiva.", "Q è semidefinita positiva, ma non definita positiva."],
+    "question": "02. Data la forma quadratica Q la cui matrice associata e' [4 2; 2 1], quale delle seguenti affermazioni e' vera?",
+    "options": ["Q e' indefinita.", "Q e' semidefinita negativa, ma non definita negativa.", "Q e' definita positiva.", "Q e' semidefinita positiva, ma non definita positiva."],
     "answer": 3
   },
   {
     "lesson": "Lezione 038",
-    "question": "03. Data la forma quadratica Q la cui matrice associata è [-3 2; 2 -2], quale delle seguenti affermazioni è vera?",
-    "options": ["Q è definita negativa.", "Q è indefinita.", "Q è definita positiva.", "Q è semidefinita negativa, ma non definita negativa."],
+    "question": "03. Data la forma quadratica Q la cui matrice associata e' [-3 2; 2 -2], quale delle seguenti affermazioni e' vera?",
+    "options": ["Q e' definita negativa.", "Q e' indefinita.", "Q e' definita positiva.", "Q e' semidefinita negativa, ma non definita negativa."],
     "answer": 0
   },
   {
     "lesson": "Lezione 038",
-    "question": "04. Data la forma quadratica Q la cui matrice associata è [-4 2; 2 -1], quale delle seguenti affermazioni è vera?",
-    "options": ["Q è semidefinita negativa, ma non definita negativa.", "Q è indefinita.", "Q è definita negativa.", "Q è semidefinita positiva, ma non definita positiva."],
+    "question": "04. Data la forma quadratica Q la cui matrice associata e' [-4 2; 2 -1], quale delle seguenti affermazioni e' vera?",
+    "options": ["Q e' semidefinita negativa, ma non definita negativa.", "Q e' indefinita.", "Q e' definita negativa.", "Q e' semidefinita positiva, ma non definita positiva."],
     "answer": 0
   },
   {
     "lesson": "Lezione 038",
-    "question": "05. Data la forma quadratica Q la cui matrice associata è [2 2; 2 1], quale delle seguenti affermazioni è vera?",
-    "options": ["Q è indefinita.", "Q è definita positiva.", "Q è definita negativa.", "Q è semidefinita positiva, ma non definita positiva."],
+    "question": "05. Data la forma quadratica Q la cui matrice associata e' [2 2; 2 1], quale delle seguenti affermazioni e' vera?",
+    "options": ["Q e' indefinita.", "Q e' definita positiva.", "Q e' definita negativa.", "Q e' semidefinita positiva, ma non definita positiva."],
     "answer": 0
   },
   {
     "lesson": "Lezione 040",
-    "question": "01. Data l'applicazione affine θ: R²∋(x y) → (x-2y+2, 2x+y-1) ∈ R² e indicata sempre con θ la sua estensione proiettiva, quale delle seguenti è [θ]_P?",
-    "options": ["[2 -4 4; 4 2 -2; 0 0 1]", "[2 -4 4; 4 2 2; 0 0 2]", "[1 -2 2; 2 1 -1; 0 0 1]", "[2 -4 4; 4 2 -2; 0 0 2]"],
+    "question": "01. Data l'applicazione affine theta: (x, y) -> (x-2y+2, 2x+y-1) e indicata con theta la sua estensione proiettiva, quale delle seguenti e' [theta]_P?",
+    "options": ["[2 -4 4; 4 2 -2; 0 0 1]", ["[2 -4 4; 4 2 2; 0 0 2]", "[1 -2 2; 2 1 -1; 0 0 1]", "[2 -4 4; 4 2 -2; 0 0 2]"],
     "answer": 3
   },
   {
     "lesson": "Lezione 040",
-    "question": "02. Data l'applicazione affine θ: R²∋(x y) → (x-2y+2, 2x+y+1) ∈ R² e indicata sempre con θ la sua estensione proiettiva, quale delle seguenti è [θ]_P?",
-    "options": ["[2 -4 4; 4 2 2; 0 0 1]", ["[2 -4 4; 4 2 -2; 0 0 2]", "[2 -4 4; 4 2 2; 0 0 2]", "[1 -2 2; 2 1 1; 0 0 2]"],
+    "question": "02. Data l'applicazione affine theta: (x, y) -> (x-2y+2, 2x+y+1) e indicata con theta la sua estensione proiettiva, quale delle seguenti e' [theta]_P?",
+    "options": ["[2 -4 4; 4 2 2; 0 0 1]", ["[2 -4 4; 4 2 -2; 0 0 2]", ["[2 -4 4; 4 2 2; 0 0 2]", "[1 -2 2; 2 1 1; 0 0 2]"],
     "answer": 2
   },
   {
     "lesson": "Lezione 040",
-    "question": "03. Data l'applicazione affine θ: R²∋(x y) → (x-2y+2, 2x-y-1) ∈ R² e indicata sempre con θ la sua estensione proiettiva, quale delle seguenti è [θ]_P?",
-    "options": ["[1 -2 2; 2 -1 -1; 0 0 1]", "[2 -4 4; 4 -2 -2; 0 0 2]", "[2 -4 4; 4 -2 -2; 0 0 1]", "[2 -4 4; 4 -2 2; 0 0 2]"],
+    "question": "03. Data l'applicazione affine theta: (x, y) -> (x-2y+2, 2x-y-1) e indicata con theta la sua estensione proiettiva, quale delle seguenti e' [theta]_P?",
+    "options": ["[1 -2 2; 2 -1 -1; 0 0 1]", ["[2 -4 4; 4 -2 -2; 0 0 2]", ["[2 -4 4; 4 -2 -2; 0 0 1]", ["[2 -4 4; 4 -2 2; 0 0 2]"],
     "answer": 1
   },
   {
     "lesson": "Lezione 040",
-    "question": "04. Data l'applicazione affine θ: R²∋(x y) → (x-2y+2, 2x-y+1) ∈ R² e indicata sempre con θ la sua estensione proiettiva, quale delle seguenti è [θ]_P?",
-    "options": ["[2 -4 4; 4 -2 2; 0 0 1]", ["[2 -4 4; 4 -2 2; 0 0 2]", "[1 -2 2; 2 -1 1; 0 0 2]", "[2 -4 4; 4 -2 -2; 0 0 2]"],
+    "question": "04. Data l'applicazione affine theta: (x, y) -> (x-2y+2, 2x-y+1) e indicata con theta la sua estensione proiettiva, quale delle seguenti e' [theta]_P?",
+    "options": ["[2 -4 4; 4 -2 2; 0 0 1]", ["[2 -4 4; 4 -2 2; 0 0 2]", ["[1 -2 2; 2 -1 1; 0 0 2]", ["[2 -4 4; 4 -2 -2; 0 0 2]"],
     "answer": 1
   },
   {
     "lesson": "Lezione 041",
-    "question": "01. Quale delle seguenti è una forma implicita omogenea della retta tangente alla curva algebrica X⁴ - 3Y²T² + 2T⁴ = 0 nel punto [1 -1 1] nel piano?",
+    "question": "01. Quale delle seguenti e' una forma implicita omogenea della retta tangente alla curva algebrica X^4 - 3Y^2 T^2 + 2T^4 = 0 nel punto [1 -1 1] nel piano?",
     "options": ["2X + 3Y - T = 0", "2X + 3Y + T = 0", "2X - 3Y + T = 0", "2X - 3Y - T = 0"],
     "answer": 1
   },
   {
     "lesson": "Lezione 041",
-    "question": "02. Quale delle seguenti è una forma implicita omogenea della retta tangente alla curva algebrica X⁴ - 3Y²T² + 2T⁴ = 0 nel punto [1 1 1] nel piano?",
+    "question": "02. Quale delle seguenti e' una forma implicita omogenea della retta tangente alla curva algebrica X^4 - 3Y^2 T^2 + 2T^4 = 0 nel punto [1 1 1] nel piano?",
     "options": ["2X - 3Y + T = 0", "2X + 3Y + T = 0", "2X - 3Y - T = 0", "2X + 3Y - T = 0"],
     "answer": 0
   },
   {
     "lesson": "Lezione 041",
-    "question": "03. Quale delle seguenti è una forma implicita omogenea della retta tangente alla curva algebrica X⁴ - 3Y²T² + 2T⁴ = 0 nel punto [1 1 -1] nel piano?",
+    "question": "03. Quale delle seguenti e' una forma implicita omogenea della retta tangente alla curva algebrica X^4 - 3Y^2 T^2 + 2T^4 = 0 nel punto [1 1 -1] nel piano?",
     "options": ["2X + 3Y - T = 0", "2X + 3Y + T = 0", "2X - 3Y + T = 0", "2X - 3Y - T = 0"],
     "answer": 3
   },
   {
     "lesson": "Lezione 041",
-    "question": "04. Quale delle seguenti è una forma implicita omogenea della retta tangente alla curva algebrica X⁴ - 3Y²T² + 2T⁴ = 0 nel punto [-1 1 1] nel piano?",
+    "question": "04. Quale delle seguenti e' una forma implicita omogenea della retta tangente alla curva algebrica X^4 - 3Y^2 T^2 + 2T^4 = 0 nel punto [-1 1 1] nel piano?",
     "options": ["2X + 3Y + T = 0", "2X + 3Y - T = 0", "2X - 3Y + T = 0", "2X - 3Y - T = 0"],
     "answer": 1
   },
   {
     "lesson": "Lezione 044",
-    "question": "01. Quale delle seguenti è una forma implicita della polare del punto t(2 1) rispetto alla conica con matrice associata [2 1 0; 1 0 -3; 0 -3 -2] nel piano?",
+    "question": "01. Quale delle seguenti e' una forma implicita della polare del punto t(2 1) rispetto alla conica con matrice associata [2 1 0; 1 0 -3; 0 -3 -2] nel piano?",
     "options": ["5x - y - 5 = 0", "5x + y - 5 = 0", "5x - y + 5 = 0", "5x + y + 5 = 0"],
     "answer": 0
   },
   {
     "lesson": "Lezione 044",
-    "question": "02. Quale delle seguenti è una forma implicita della polare del punto t(-2 1) rispetto alla conica con matrice associata [2 -1 0; -1 0 -3; 0 -3 -2] nel piano?",
+    "question": "02. Quale delle seguenti e' una forma implicita della polare del punto t(-2 1) rispetto alla conica con matrice associata [2 -1 0; -1 0 -3; 0 -3 -2] nel piano?",
     "options": ["5x + y + 5 = 0", "5x - y - 5 = 0", "5x - y + 5 = 0", "5x + y - 5 = 0"],
     "answer": 0
   },
   {
     "lesson": "Lezione 044",
-    "question": "03. Quale delle seguenti è una forma implicita della polare del punto t(2 -1) rispetto alla conica con matrice associata [2 -1 0; -1 0 3; 0 3 -2] nel piano?",
+    "question": "03. Quale delle seguenti e' una forma implicita della polare del punto t(2 -1) rispetto alla conica con matrice associata [2 -1 0; -1 0 3; 0 3 -2] nel piano?",
     "options": ["5x - y + 5 = 0", "5x - y - 5 = 0", "5x + y + 5 = 0", "5x + y - 5 = 0"],
     "answer": 3
   },
   {
     "lesson": "Lezione 044",
-    "question": "04. Quale delle seguenti è una forma implicita della polare del punto t(-2 -1) rispetto alla conica con matrice associata [2 1 0; 1 0 3; 0 3 -2] nel piano?",
+    "question": "04. Quale delle seguenti e' una forma implicita della polare del punto t(-2 -1) rispetto alla conica con matrice associata [2 1 0; 1 0 3; 0 3 -2] nel piano?",
     "options": ["5x + y - 5 = 0", "5x - y - 5 = 0", "5x - y + 5 = 0", "5x + y + 5 = 0"],
     "answer": 2
   },
   {
     "lesson": "Lezione 047",
-    "question": "01. Sapendo che la matrice 4x4 associata alla quadrica Q di equazione x²+2xy+2xz+2x+2y+2z+1=0 è [1 1 1 1; 1 0 0 1; 1 0 0 1; 1 1 1 1], quale delle seguenti affermazioni è vera?",
-    "options": ["Q è degenere, è formata da due piani e non è un piano doppio.", "Q è un cono o un cilindro.", "Q è un piano doppio.", "Q è non degenere."],
+    "question": "01. Sapendo che la matrice 4x4 associata alla quadrica Q di equazione x^2+2xy+2xz+2x+2y+2z+1=0 e' [1 1 1 1; 1 0 0 1; 1 0 0 1; 1 1 1 1], quale delle seguenti affermazioni e' vera?",
+    "options": ["Q e' degenere, e' formata da due piani e non e' un piano doppio.", "Q e' un cono o un cilindro.", "Q e' un piano doppio.", "Q e' non degenere."],
     "answer": 0
   },
   {
     "lesson": "Lezione 047",
-    "question": "02. Sapendo che la matrice 4x4 associata alla quadrica Q di equazione x²+y²+z²+2xy+2xz+2yz+2x+2y+2z+1=0 è una matrice con tutti gli elementi uguali a 1, quale delle seguenti affermazioni è vera?",
-    "options": ["Q è un cono o un cilindro.", "Q è un piano doppio.", "Q è non degenere.", "Q è degenere, è formata da due piani e non è un piano doppio."],
+    "question": "02. Sapendo che la matrice 4x4 associata alla quadrica Q di equazione x^2+y^2+z^2+2xy+2xz+2yz+2x+2y+2z+1=0 e' una matrice con tutti gli elementi uguali a 1, quale delle seguenti affermazioni e' vera?",
+    "options": ["Q e' un cono o un cilindro.", "Q e' un piano doppio.", "Q e' non degenere.", "Q e' degenere, e' formata da due piani e non e' un piano doppio."],
     "answer": 1
   },
   {
     "lesson": "Lezione 047",
-    "question": "03. Sapendo che la matrice 4x4 associata alla quadrica Q di equazione 2x+2yz+1=0 è [0 0 0 1; 0 0 1 0; 0 1 0 0; 1 0 0 1], quale delle seguenti affermazioni è vera?",
-    "options": ["Q è degenere, è formata da due piani e non è un piano doppio.", "Q è un cono o un cilindro.", "Q è non degenere.", "Q è un piano doppio."],
+    "question": "03. Sapendo che la matrice 4x4 associata alla quadrica Q di equazione 2x+2yz+1=0 e' [0 0 0 1; 0 0 1 0; 0 1 0 0; 1 0 0 1], quale delle seguenti affermazioni e' vera?",
+    "options": ["Q e' degenere, e' formata da due piani e non e' un piano doppio.", "Q e' un cono o un cilindro.", "Q e' non degenere.", "Q e' un piano doppio."],
     "answer": 2
   },
   {
     "lesson": "Lezione 047",
-    "question": "04. Sapendo che la matrice 4x4 associata alla quadrica Q di equazione y²+z²+2yz+2x+2y+2z+1=0 è [0 0 0 1; 0 1 1 1; 0 1 1 1; 1 1 1 1], quale delle seguenti affermazioni è vera?",
-    "options": ["Q è non degenere.", "Q è un piano doppio.", "Q è un cono o un cilindro.", "Q è degenere, è formata da due piani e non è un piano doppio."],
+    "question": "04. Sapendo che la matrice 4x4 associata alla quadrica Q di equazione y^2+z^2+2yz+2x+2y+2z+1=0 e' [0 0 0 1; 0 1 1 1; 0 1 1 1; 1 1 1 1], quale delle seguenti affermazioni e' vera?",
+    "options": ["Q e' non degenere.", "Q e' un piano doppio.", "Q e' un cono o un cilindro.", "Q e' degenere, e' formata da due piani e non e' un piano doppio."],
     "answer": 2
   },
   {
     "lesson": "Lezione 048",
-    "question": "01. In quale dei seguenti casi la curva differenziabile gamma: R∋s → γ(s) = t(x(s) y(s)) ∈ R² è regolare?",
-    "options": ["x(s)=s³-3s+1, y(s)=2s²-4s-1", "x(s)=2s³+3s², y(s)=3s⁴+2s³-1", "x(s)=s³-3s+1, y(s)=2s²+3s-1", "x(s)=2s³+3s², y(s)=3s⁴+4s³-1"],
+    "question": "01. In quale dei seguenti casi la curva differenziabile gamma: s -> (x(s), y(s)) in R2 e' regolare?",
+    "options": ["x(s)=s^3-3s+1, y(s)=2s^2-4s-1", "x(s)=2s^3+3s^2, y(s)=3s^4+2s^3-1", "x(s)=s^3-3s+1, y(s)=2s^2+3s-1", "x(s)=2s^3+3s^2, y(s)=3s^4+4s^3-1"],
     "answer": 2
   },
   {
     "lesson": "Lezione 048",
-    "question": "02. In quale dei seguenti casi la curva differenziabile gamma: R∋s → γ(s) = t(x(s) y(s)) ∈ R² è regolare?",
-    "options": ["x(s)=s³-3s+1, y(s)=2s²+4s-1", "x(s)=s³-3s+1, y(s)=2s²-4s-1", "x(s)=2s³+3s², y(s)=3s⁴+4s³-1", "x(s)=2s³+3s, y(s)=3s⁴+2s³-1"],
+    "question": "02. In quale dei seguenti casi la curva differenziabile gamma: s -> (x(s), y(s)) in R2 e' regolare?",
+    "options": ["x(s)=s^3-3s+1, y(s)=2s^2+4s-1", "x(s)=s^3-3s+1, y(s)=2s^2-4s-1", "x(s)=2s^3+3s^2, y(s)=3s^4+4s^3-1", "x(s)=2s^3+3s, y(s)=3s^4+2s^3-1"],
     "answer": 3
   },
   {
     "lesson": "Lezione 048",
-    "question": "03. In quale dei seguenti casi la curva differenziabile gamma: R∋s → γ(s) = t(x(s) y(s)) ∈ R² è regolare?",
-    "options": ["x(s)=2s³+3s², y(s)=3s⁴+2s³-1", "x(s)=s³-3s+1, y(s)=2s²-4s-1", "x(s)=s³-3s+1, y(s)=2s²+4s-1", "x(s)=2s³+3s², y(s)=3s⁴+4s-1"],
+    "question": "03. In quale dei seguenti casi la curva differenziabile gamma: s -> (x(s), y(s)) in R2 e' regolare?",
+    "options": ["x(s)=2s^3+3s^2, y(s)=3s^4+2s^3-1", "x(s)=s^3-3s+1, y(s)=2s^2-4s-1", "x(s)=s^3-3s+1, y(s)=2s^2+4s-1", "x(s)=2s^3+3s^2, y(s)=3s^4+4s-1"],
     "answer": 3
   },
   {
     "lesson": "Lezione 048",
-    "question": "04. In quale dei seguenti casi la curva differenziabile gamma: R∋s → γ(s) = t(x(s) y(s)) ∈ R² è regolare?",
-    "options": ["x(s)=2s³+3s², y(s)=3s⁴+4s³-1", "x(s)=s³-3s+1, y(s)=2s²+4s-1", "x(s)=s³-4s+1, y(s)=2s²-4s-1", "x(s)=2s³+3s², y(s)=3s⁴+2s³-1"],
+    "question": "04. In quale dei seguenti casi la curva differenziabile gamma: s -> (x(s), y(s)) in R2 e' regolare?",
+    "options": ["x(s)=2s^3+3s^2, y(s)=3s^4+4s^3-1", "x(s)=s^3-3s+1, y(s)=2s^2+4s-1", "x(s)=s^3-4s+1, y(s)=2s^2-4s-1", "x(s)=2s^3+3s^2, y(s)=3s^4+2s^3-1"],
     "answer": 2
   },
   {
     "lesson": "Lezione 048",
-    "question": "05. Quale è il versore tangente alla curva differenziabile nello spazio data da γ(s) = t(s³+2s²-1, s-2, s²+3s) nel punto γ(-1)?",
-    "options": ["t(-2/√6 1/√6 1/√6)", "t(-2 1 1)", "t(-1 1 1)", "t(-1/√3 1/√3 1/√3)"],
+    "question": "05. Quale e' il versore tangente alla curva differenziabile nello spazio data da gamma(s) = t(s^3+2s^2-1, s-2, s^2+3s) nel punto gamma(-1)?",
+    "options": ["t(-2/rad(6) 1/rad(6) 1/rad(6))", "t(-2 1 1)", "t(-1 1 1)", "t(-1/rad(3) 1/rad(3) 1/rad(3))"],
     "answer": 3
   },
   {
     "lesson": "Lezione 048",
-    "question": "06. Quale è il versore tangente alla curva differenziabile nello spazio data da γ(s) = t(s³+2s²-s, s-2, s²+3s) nel punto γ(-1)?",
-    "options": ["t(-1 1 1)", "t(-1/√3 1/√3 1/√3)", "t(-2/√6 1/√6 1/√6)", "t(-2 1 1)"],
+    "question": "06. Quale e' il versore tangente alla curva differenziabile nello spazio data da gamma(s) = t(s^3+2s^2-s, s-2, s^2+3s) nel punto gamma(-1)?",
+    "options": ["t(-1 1 1)", "t(-1/rad(3) 1/rad(3) 1/rad(3))", "t(-2/rad(6) 1/rad(6) 1/rad(6))", "t(-2 1 1)"],
     "answer": 2
   },
   {
     "lesson": "Lezione 048",
-    "question": "07. Quale è il versore tangente alla curva differenziabile nello spazio data da γ(s) = t(s³-2s²-1, s-2, s²-3) nel punto γ(1)?",
-    "options": ["t(-1/√3 1/√3 -1/√3)", "t(-1/√6 1/√6 2/√6)", "t(-1 1 2)", "t(-1 1 -1)"],
+    "question": "07. Quale e' il versore tangente alla curva differenziabile nello spazio data da gamma(s) = t(s^3-2s^2-1, s-2, s^2-3) nel punto gamma(1)?",
+    "options": ["t(-1/rad(3) 1/rad(3) -1/rad(3))", "t(-1/rad(6) 1/rad(6) 2/rad(6))", "t(-1 1 2)", "t(-1 1 -1)"],
     "answer": 1
   },
   {
     "lesson": "Lezione 048",
-    "question": "08. Quale è il versore tangente alla curva differenziabile nello spazio data da γ(s) = t(s³-2s²-1, s-2, s²-3s) nel punto γ(1)?",
-    "options": ["t(-1 1 2)", "t(-1/√6 1/√6 2/√6)", "t(-1 1 -1)", "t(-1/√3 1/√3 -1/√3)"],
+    "question": "08. Quale e' il versore tangente alla curva differenziabile nello spazio data da gamma(s) = t(s^3-2s^2-1, s-2, s^2-3s) nel punto gamma(1)?",
+    "options": ["t(-1 1 2)", "t(-1/rad(6) 1/rad(6) 2/rad(6))", "t(-1 1 -1)", "t(-1/rad(3) 1/rad(3) -1/rad(3))"],
     "answer": 3
   }
 ]
