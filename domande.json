@@ -524,19 +524,19 @@
   {
     "lesson": "Lezione 040",
     "question": "02. Data l'applicazione affine theta: (x, y) -> (x-2y+2, 2x+y+1) e indicata con theta la sua estensione proiettiva, quale delle seguenti e' [theta]_P?",
-    "options": ["[2 -4 4; 4 2 2; 0 0 1]", ["[2 -4 4; 4 2 -2; 0 0 2]", "[2 -4 4; 4 2 2; 0 0 2]", "[1 -2 2; 2 1 1; 0 0 2]"],
+    "options": ["[2 -4 4; 4 2 2; 0 0 1]", "[2 -4 4; 4 2 -2; 0 0 2]", "[2 -4 4; 4 2 2; 0 0 2]", "[1 -2 2; 2 1 1; 0 0 2]"],
     "answer": 2
   },
-  {
+ {
     "lesson": "Lezione 040",
     "question": "03. Data l'applicazione affine theta: (x, y) -> (x-2y+2, 2x-y-1) e indicata con theta la sua estensione proiettiva, quale delle seguenti e' [theta]_P?",
-    "options": ["[1 -2 2; 2 -1 -1; 0 0 1]", ["[2 -4 4; 4 -2 -2; 0 0 2]", ["[2 -4 4; 4 -2 -2; 0 0 1]", ["[2 -4 4; 4 -2 2; 0 0 2]"],
+    "options": ["[1 -2 2; 2 -1 -1; 0 0 1]", "[2 -4 4; 4 -2 -2; 0 0 2]", "[2 -4 4; 4 -2 -2; 0 0 1]", "[2 -4 4; 4 -2 2; 0 0 2]"],
     "answer": 1
   },
   {
     "lesson": "Lezione 040",
     "question": "04. Data l'applicazione affine theta: (x, y) -> (x-2y+2, 2x-y+1) e indicata con theta la sua estensione proiettiva, quale delle seguenti e' [theta]_P?",
-    "options": ["[2 -4 4; 4 -2 2; 0 0 1]", ["[2 -4 4; 4 -2 2; 0 0 2]", ["[1 -2 2; 2 -1 1; 0 0 2]", ["[2 -4 4; 4 -2 -2; 0 0 2]"],
+    "options": ["[2 -4 4; 4 -2 2; 0 0 1]", "[2 -4 4; 4 -2 2; 0 0 2]", "[1 -2 2; 2 -1 1; 0 0 2]", "[2 -4 4; 4 -2 -2; 0 0 2]"],
     "answer": 1
   },
   {
