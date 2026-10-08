@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz Complementi di Matematica</title>
+  <style>
+    :root {
+      --bg: #f8fafc;
+      --card: #ffffff;
+      --primary: #2563eb;
+      --text: #0f172a;
+      --border: #e2e8f0;
+      --success: #16a34a;
+      --success-bg: #dcfce7;
+      --error: #dc2626;
+      --error-bg: #fee2e2;
+    }
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: system-ui, -apple-system, sans-serif;
+    }
+    body {
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.5;
+      padding: 16px;
+    }
+    .wrapper {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    header {
+      background: var(--card);
+      padding: 20px;
+      border-radius: 10px;
+      margin-bottom: 16px;
+      border: 1px solid var(--border);
+    }
+    h1 {
+      font-size: 1.4rem;
+      color: var(--primary);
+      margin-bottom: 4px;
+    }
+    .scoreboard {
+      position: sticky;
+      top: 10px;
+      background: #ffffff;
+      padding: 12px 18px;
+      border-radius: 8px;
+      border: 1px solid var(--border);
+      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 20px;
+      z-index: 50;
+    }
+    .score-txt {
+      font-weight: 700;
+      font-size: 0.95rem;
+    }
+    .btn-action {
+      background: var(--primary);
+      color: #fff;
+      border: none;
+      padding: 8px 14px;
+      border-radius: 6px;
+      cursor: pointer;
+      font-weight: 600;
+      font-size: 0.85rem;
+    }
+    .btn-action:hover {
+      background: #1d4ed8;
+    }
+    .card {
+      background: var(--card);
+      border-radius: 8px;
+      padding: 18px;
+      margin-bottom: 16px;
+      border: 1px solid var(--border);
+    }
+    .badge {
+      display: inline-block;
+      background: #eff6ff;
+      color: var(--primary);
+      font-size: 0.75rem;
+      font-weight: 700;
+      padding: 3px 8px;
+      border-radius: 4px;
+      margin-bottom: 10px;
+    }
+    .question {
+      font-size: 1rem;
+      font-weight: 600;
+      margin-bottom: 14px;
+      white-space: pre-wrap;
+    }
+    .options {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+    .opt-btn {
+      text-align: left;
+      padding: 10px 14px;
+      background: #f8fafc;
+      border: 1px solid #cbd5e1;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 0.92rem;
+      color: var(--text);
+      display: block;
+      width: 100%;
+      white-space: pre-wrap;
+    }
+    .opt-btn:hover:not(:disabled) {
+      background: #f1f5f9;
+    }
+    .opt-btn.correct {
+      background: var(--success-bg) !important;
+      border-color: var(--success) !important;
+      color: var(--success) !important;
+      font-weight: 700;
+    }
+    .opt-btn.wrong {
+      background: var(--error-bg) !important;
+      border-color: var(--error) !important;
+      color: var(--error) !important;
+      font-weight: 700;
+    }
+    .feedback {
+      margin-top: 10px;
+      font-size: 0.88rem;
+      font-weight: 700;
+      display: none;
+    }
+    .feedback.show { display: block; }
+    .feedback.ok { color: var(--success); }
+    .feedback.ko { color: var(--error); }
+    #status-msg {
+      text-align: center;
+      padding: 24px;
+      font-weight: 600;
+      color: #64748b;
+    }
+  </style>
+</head>
+<body>
+
+<div class="wrapper">
+  <header>
+    <h1>Complementi di Matematica</h1>
+    <p style="color: #64748b; font-size: 0.9rem;">Esercitazione quiz dinamica (DM 1648/23)</p>
+  </header>
+
+  <div class="scoreboard">
+    <div class="score-txt">
+      Punteggio: <span id="score">0</span> / <span id="answered">0</span> (Totale: <span id="total">0</span>)
+    </div>
+    <button class="btn-action" onclick="loadAndRenderQuiz()">Ricarica / Mescola</button>
+  </div>
+
+  <div id="status-msg">Caricamento domande in corso...</div>
+  <div id="quiz-list"></div>
+</div>
+
+<script>
+// Percorso relativo al file presente nello stesso repository
+const DATA_URL = "./domande.json";
+
+let rawQuestions = [];
+let score = 0;
+let answered = 0;
+
+function shuffle(array) {
+  const arr = [...array];
+  for (let i = arr.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [arr[i], arr[j]] = [arr[j], arr[i]];
+  }
+  return arr;
+}
+
+async function loadAndRenderQuiz() {
+  const statusMsg = document.getElementById("status-msg");
+  const list = document.getElementById("quiz-list");
+  list.innerHTML = "";
+  score = 0;
+  answered = 0;
+  document.getElementById("score").textContent = score;
+  document.getElementById("answered").textContent = answered;
+
+  try {
+    if (rawQuestions.length === 0) {
+      statusMsg.style.display = "block";
+      statusMsg.textContent = "Scaricamento delle domande...";
+
+      const res = await fetch(DATA_URL);
+      if (!res.ok) throw new Error("Errore HTTP: " + res.status);
+      rawQuestions = await res.json();
+    }
+
+    statusMsg.style.display = "none";
+
+    const randomizedQuestions = shuffle(rawQuestions);
+    document.getElementById("total").textContent = randomizedQuestions.length;
+
+    randomizedQuestions.forEach((item) => {
+      const card = document.createElement("div");
+      card.className = "card";
+
+      const optionsWithFlag = item.options.map((opt, i) => ({
+        text: opt,
+        isCorrect: (i === item.answer)
+      }));
+      const shuffledOptions = shuffle(optionsWithFlag);
+
+      card.innerHTML = `
+        <div class="badge">${item.lesson || 'Quiz'}</div>
+        <div class="question">${item.question}</div>
+        <div class="options"></div>
+        <div class="feedback"></div>
+      `;
+
+      const optWrap = card.querySelector(".options");
+      const feed = card.querySelector(".feedback");
+
+      shuffledOptions.forEach((optObj) => {
+        const btn = document.createElement("button");
+        btn.className = "opt-btn";
+        btn.type = "button";
+        btn.textContent = optObj.text;
+
+        btn.onclick = () => {
+          const allButtons = optWrap.querySelectorAll(".opt-btn");
+          allButtons.forEach(b => b.disabled = true);
+
+          if (optObj.isCorrect) {
+            btn.classList.add("correct");
+            feed.className = "feedback show ok";
+            feed.textContent = "✓ Esatto!";
+            score++;
+          } else {
+            btn.classList.add("wrong");
+            allButtons.forEach((b, idx) => {
+              if (shuffledOptions[idx].isCorrect) b.classList.add("correct");
+            });
+            feed.className = "feedback show ko";
+            feed.textContent = "✗ Errato.";
+          }
+
+          answered++;
+          document.getElementById("score").textContent = score;
+          document.getElementById("answered").textContent = answered;
+        };
+
+        optWrap.appendChild(btn);
+      });
+
+      list.appendChild(card);
+    });
+
+  } catch (err) {
+    statusMsg.style.display = "block";
+    statusMsg.textContent = "Errore durante il caricamento delle domande: " + err.message;
+  }
+}
+
+window.addEventListener("DOMContentLoaded", () => {
+  loadAndRenderQuiz();
+});
+</script>
+
+</body>
+</html>
